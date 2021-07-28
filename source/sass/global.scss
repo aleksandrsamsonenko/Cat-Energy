@@ -7,6 +7,13 @@ html {
 ::before {
   box-sizing: inherit;
 }
+body {
+  color: #000000;
+  font-family: 'Oswald-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 320px;
+}
 
 a {
   text-decoration: none;
@@ -19,7 +26,8 @@ a {
 @media only screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
+
   }
 }
 
@@ -29,9 +37,4 @@ a {
     max-width: 1200px;
   }
 }
-body {
-  color: #000000;
-  font-family: 'Oswald-Regular', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-}
+

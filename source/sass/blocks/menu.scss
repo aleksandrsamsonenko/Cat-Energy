@@ -10,20 +10,25 @@
   padding-top: 25px;
 }
 .menu__list {
+
   text-align: center;
 }
 .item {
+
   padding-bottom: 25px;
   padding-top: 25px;
   border-top: 2px solid #e6e6e6;
 }
 @media only screen and (min-width: 768px) {
   .menu {
+    padding: 0;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 
   }
   .menu__list {
+    align-items: center;
     display: flex;
     flex-direction: row;
 
@@ -36,26 +41,18 @@
     color: #222222;
     position: relative;
     margin: 0;
+
   }
 
   .item-active {
-    position: relative;
-
-    &:before {
-      content: '';
-      position: absolute;
-      width: 68px;
       border-bottom: 2px solid #68b738;
-      top: 25px;
-      left: 50px;
-    }
+
   }
   .item {
-    margin: 0;
     padding-bottom: 0px;
     padding-top: 0px;
     border-top: none;
-    padding-left: 50px;
+    margin-left: 30px;
   }
 
 }

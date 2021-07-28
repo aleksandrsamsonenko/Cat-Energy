@@ -1,5 +1,5 @@
 {
-  "name": "Alexey-start-template",
+  "name": "alexey-start-template",
   "version": "1.0.0",
   "description": "Стартовый шаблон",
   "devDependencies": {
@@ -51,5 +51,16 @@
   },
   "dependencies": {
     "del": "^4.1.1"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrsamsonenko/Cat-Energy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrsamsonenko/Cat-Energy/issues"
+  },
+  "homepage": "https://github.com/aleksandrsamsonenko/Cat-Energy#readme"
 }
