@@ -1,0 +1,269 @@
+.main__inner {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cat-program {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: url("../img/index-background-mobile.png") no-repeat 50% top,linear-gradient(to top, #fff 38%, #65a93c 38%) ;
+  padding-bottom: 22px;
+}
+.cat-program__item {
+  padding-top: 29px;
+  padding-bottom: 19px;
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+.cat-program__text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  padding-bottom: 29px;
+}
+.cat-program__btn {
+  font-size: 14px;
+  line-height: 1.29;
+  padding: 14px 74px 11px 74px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #68b738;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 20px 0 20px;
+}
+.cat-program__img {
+  width: 280px;
+  height: 270px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.slimming {
+  background-color: #f2f2f2;
+  margin: 0 20px 20px 20px;
+}
+.slimming__title {
+  display: flex;
+  margin: 24px 0 24px 22px;
+}
+.slimming__title--text {
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 24px;
+  line-height: 1.54;
+  color: #111111;
+}
+.slimming__title--img {
+  width: 58px;
+  height: 51px;
+}
+.slimming__title--img2 {
+  width: 67px;
+  height: 50px;
+}
+.slimming__text {
+  margin: 0 22px 23px 22px;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #444;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.slimming__btn {
+  margin: 20px 0 22px 22px;
+
+}
+.slimming__btn--link {
+  padding-right: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  color: #111;
+  text-transform: uppercase;
+}
+.slimming__btn--arrow {
+  width: 24px;
+  height: 11px;
+}
+.advantage {
+  margin: 12px 27px 47px 22px;
+}
+.advantage__title {
+  font-size: 36px;
+  line-height: 1.67;
+  color: #111;
+  padding-bottom: 40px;
+}
+.advantage__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.list-description {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #444;
+  padding-bottom: 32px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+    left: 0;
+    top: -10px;
+  }
+}
+.list-description__img {
+  z-index: 2;
+  margin-left: 17px;
+  margin-top: 5px;
+  width: 26px;
+  height: 31px;
+}
+.list-description__text {
+  margin-left: 37px;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+.example__inner {
+  margin: 33px 20px 0 20px;
+}
+.example__title {
+  font-size: 36px;
+  line-height: 1.67;
+  color: #111;
+  padding-bottom: 33px;
+}
+.example__text {
+  font-size: 14px;
+  line-height: 1.29;
+  color: #444;
+  margin-right: 20px;
+  padding-bottom: 27px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.total__weight--title {
+  padding: 17px 43px 18px 44px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  font-size: 24px;
+  line-height: 1;
+  color: #111;
+}
+.total__weight--text {
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  font-size: 12px;
+  line-height: 1;
+  color: #444;
+  background-color: #f2f2f2;
+  margin: 0 20px 0 20px;
+}
+.total__spent--title {
+  padding: 17px 23px 18px 23px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  font-size: 24px;
+  line-height: 1;
+  color: #111;
+}
+.total__spent--text {
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  font-size: 12px;
+  line-height: 1;
+  color: #444;
+  background-color: #f2f2f2;
+  margin: 0 20px 0 20px;
+}
+
+.example__expenses {
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 44px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #111;
+}
+.example__img {
+  width: 311px;
+  height: 232px;
+  display: block;
+  margin: 0 auto;
+}
+.scale {
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 38px;
+  justify-content: center;
+}
+.scale__was,
+.scale__became {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #111;
+}
+.scale__border {
+  width: 84px;
+  height: 14px;
+  border-radius: 10px;
+  border: 2px solid #cdcdcd;
+  background-color: #ffffff;
+  margin: 4px 18px 0 18px;
+}
+.scale__border--green {
+  width: 35px;
+  height: 6px;
+  background-color: #68b738;
+  border-radius: 10px;
+  margin: 2px 0 0 4px;
+}
+.address__dealer {
+  display: flex;
+}
+.address__dealer--title {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #111;
+  margin: 30px 20px 25px 19px;
+  text-transform: uppercase;
+}
+.address__dealer--text {
+  margin: 30px 20px 25px 0;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #444;
+}
+.address__img {
+  width: 100%;
+  position: relative;
+  &::before {
+    content: url("../img/map-pin.png");
+    position: absolute;
+    width: 55px;
+    height: 53px;
+    top: 0;
+    left: 0;
+
+  }
+}
