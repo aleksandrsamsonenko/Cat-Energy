@@ -1,0 +1,171 @@
+.product__title {
+  font-size: 36px;
+  line-height: 1.67;
+  color: #111;
+  text-align: center;
+  padding: 31px 0 35px 0;
+}
+.product__inner {
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+  border: 1px solid #ededed;
+}
+.product__box {
+  display: flex;
+  justify-content: center;
+}
+.product__btn {
+  text-transform: uppercase;
+  margin: 0 auto;
+  background-color: #68b738;
+  padding: 12px 108px 12px 108px;
+  max-width: 280px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+}
+.product-list {
+  list-style: none;
+  padding-top: 20px;
+  min-width: 140px;
+}
+.product__box--title {
+  padding-top: 25px;
+  max-width: 72px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #111;
+}
+.product-list__item {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more__inner {
+  height: 210px;
+  border: 1px solid #ededed;
+}
+.more__box--img {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.more__box--img-plus {
+  width: 30px;
+  height: 30px;
+  fill: #d3d3d3;
+}
+.more__box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.more__box--title {
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #111;
+  padding-bottom: 11px;
+}
+.more__box--text {
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #444;
+  padding-bottom: 22px;
+}
+.more__box--btn {
+  text-transform: uppercase;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 12px 94px 12px 94px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #444;
+}
+
+.additional__inner {
+  margin: 0 20px 0 20px;
+}
+.additional__title {
+  font-size: 24px;
+  line-height: 1;
+  color: #111;
+  padding-top: 31px;
+  padding-bottom: 30px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 3px;
+    background-color: #68b738;
+    bottom: 38px;
+    left: 90%;
+  }
+}
+.additional__box {
+  border-top: 1px solid #cdcdcd;
+  height: 138px;
+}
+.additional__box--title {
+  font-size: 16px;
+  line-height: 1;
+  color: #222;
+  padding-top: 14px;
+}
+.additional__box-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1;
+  color: #444;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.additional__box--btn {
+  text-transform: uppercase;
+  display: flex;
+  margin: 0 auto;
+  background-color: #68b738;
+  padding: 12px 108px 12px 108px;
+  max-width: 280px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+}
+.present__img-svg {
+  width: 55px;
+  height: 60px;
+  fill: #fff;
+}
+.present__img {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+  padding-bottom: 64px;
+}
+.present {
+  border-top: 1px solid #cdcdcd;
+  padding-top: 30px;
+}
+.present__inner {
+  background-image: url("../img/gift-photo-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 289px;
+  width: 100%;
+
+}
+.present__title {
+  max-width: 159px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fff;
+}
