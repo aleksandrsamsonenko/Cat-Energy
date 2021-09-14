@@ -190,7 +190,7 @@
     display: flex;
     flex-direction: column;
     width: 324px;
-    height: 431px;
+    height: 458px;
     border: none;
     background: linear-gradient(to bottom, #fff 20%,#f2f2f2 20%);
     margin-top: 140px;
@@ -240,7 +240,7 @@
     padding-bottom: 5px;
   }
   .more__inner {
-    height: 340px;
+    height: 365px;
     width: 324px;
     border: 1px solid #ededed;
     margin-top: 230px;
@@ -285,6 +285,108 @@
     font-size: 16px;
     line-height: 1.25;
     color: #444;
+  }
+
+
+  .additional__inner {
+    margin: 0 20px 0 20px;
+  }
+  .additional__title {
+    padding-left: 47px;
+    font-size: 36px;
+    line-height: 1;
+    color: #111;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 10%;
+      height: 3px;
+      background-color: #68b738;
+      bottom: 38px;
+      left: -8%;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 40%;
+      height: 3px;
+      background-color: #68b738;
+      bottom: 38px;
+      left: 60%;
+    }
+  }
+  .additional__box {
+    border: 1px solid #cdcdcd;
+    height: 138px;
+    padding: 0 20px 0 20px;
+  }
+  .additional__box-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .additional__box-text--span2 {
+    margin-left: 52px;
+  }
+  .additional__box--title {
+    font-size: 20px;
+    line-height: 1;
+    color: #222;
+    padding-top: 14px;
+  }
+  .additional__box-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1;
+    color: #444;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .additional__box--btn {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    background-color: #68b738;
+    padding: 12px 50% 12px 50%;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+  }
+  .present__img-svg {
+    width: 55px;
+    height: 60px;
+    fill: #fff;
+  }
+  .present__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 64px;
+  }
+  .present {
+    border-top: 1px solid #cdcdcd;
+    padding-top: 30px;
+  }
+  .present__inner {
+    background-image: url("../img/gift-photo-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 289px;
+    width: 100%;
+
+  }
+  .present__title {
+    max-width: 159px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #fff;
   }
 
 }
