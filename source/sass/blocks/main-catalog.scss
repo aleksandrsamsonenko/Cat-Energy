@@ -386,19 +386,25 @@
     top: 65px;
     left: 100px;
   }
+  .present__img-bg--tablet {
+    width: 768px;
+    height: 200px;
+  }
   .present__img-bg {
     margin: 0 auto;
     z-index: -1;
-    width: 100%;
+    max-width: 1024px;
     height: 200px;
   }
   .present {
-    border-top: 1px solid #cdcdcd;
+    border-top: none;
     padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
   }
   .present__inner {
     height: 200px;
-    max-width: 768px;
+    max-width: 1024px;
     position: relative;
     padding: 0;
     text-align: center;
@@ -506,6 +512,10 @@
   .present__img-bg {
     margin: 0 auto;
     z-index: -1;
+    width: 245px;
+    height: 289px;
+  }
+  .present__img-bg--tablet {
     width: 245px;
     height: 289px;
   }
