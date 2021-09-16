@@ -142,32 +142,44 @@
   width: 55px;
   height: 60px;
   fill: #fff;
+  z-index: 1;
+  margin-left: 35px;
 }
 .present__img {
   display: flex;
   justify-content: center;
-  padding-top: 65px;
+  flex-direction: column;
+  z-index: 1;
   padding-bottom: 64px;
+  position: absolute;
+  top: 65px;
+  left: 100px;
+}
+.present__img-bg {
+  margin: 0 auto;
+  z-index: -1;
+  width: 280px;
 }
 .present {
   border-top: 1px solid #cdcdcd;
   padding-top: 30px;
 }
 .present__inner {
-  background-image: url("../img/gift-photo-mobile.png");
-  background-position: center;
-  background-repeat: no-repeat;
   height: 289px;
-  width: 100%;
-
+  max-width: 320px;
+  position: relative;
+  padding-left: 20px;
+  margin: 0 auto;
 }
 .present__title {
   max-width: 159px;
-  margin: 0 auto;
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
   color: #fff;
+  z-index: 1;
+  padding-top: 65px;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -361,32 +373,162 @@
     width: 55px;
     height: 60px;
     fill: #fff;
+    z-index: 1;
+    margin-left: 35px;
   }
   .present__img {
     display: flex;
-    justify-content: center;
-    padding-top: 65px;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 1;
     padding-bottom: 64px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+  }
+  .present__img-bg {
+    margin: 0 auto;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
   }
   .present {
     border-top: 1px solid #cdcdcd;
     padding-top: 30px;
   }
   .present__inner {
-    background-image: url("../img/gift-photo-desktop.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 289px;
-    width: 100%;
-
+    height: 200px;
+    max-width: 768px;
+    position: relative;
+    padding: 0;
+    text-align: center;
   }
   .present__title {
     max-width: 159px;
-    margin: 0 auto;
     font-size: 16px;
     line-height: 1.25;
-    text-align: center;
+    text-align: start;
     color: #fff;
+    z-index: 1;
+    padding-top: 0;
+    margin-left: 278px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .product__inner {
+    width: 245px;
+  }
+  .product__btn {
+    max-width: 169px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .more__inner {
+    width: 245px;
+  }
+  .more__box--btn {
+    display: flex;
+    justify-content: center;
+    padding: 12px 40px 12px 40px;
+    text-align: center;
+  }
+
+  .additional__title {
+    &::after {
+      bottom: 85px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 60%;
+      height: 3px;
+      background-color: #68b738;
+      bottom: 85px;
+      left: 42%;
+    }
+  }
+  .additional__title {
+    padding-top: 79px;
+    padding-bottom: 75px;
+  }
+  .additional__box--btn {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+  }
+  .additional__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    height: 71px;
+    border: none;
+    border-top: 1px solid #cdcdcd;
+    padding: 0 20px 0 20px;
+  }
+  .additional__border {
+    border-bottom: 1px solid #cdcdcd;
+  }
+  .additional__box-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .additional__box-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin: 0;
+  }
+  .additional__box--title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .present__img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 1;
+    padding-bottom: 64px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+  }
+  .present__img-bg {
+    margin: 0 auto;
+    z-index: -1;
+    width: 245px;
+    height: 289px;
+  }
+  .present {
+    border-top: none;
+    padding-top: 0;
+  }
+  .present__inner {
+    height: 289px;
+    max-width: 245px;
+    position: relative;
+    padding: 0;
+    text-align: center;
+  }
+  .present__title {
+    max-width: 159px;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: start;
+    color: #fff;
+    z-index: 1;
+    padding-top: 0;
+    margin-left: 278px;
   }
 
 }

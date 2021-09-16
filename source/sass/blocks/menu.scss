@@ -82,10 +82,15 @@
     margin: 0;
 
   }
+  .catalog-body .item__link {
+    color: #000;
+  }
 
   .item-active {
     border-bottom: 2px solid #fff;
-
+  }
+  .catalog-body .item-active {
+    border-bottom: 2px solid #68b738;
   }
   .item {
     padding-bottom: 0px;
