@@ -43,15 +43,15 @@
 
         <form class="form">
           <fieldset class="form__nutrition">
-            <fieldset>
+            <fieldset class="form__nutrition-wrap">
               <label class="form__nutrition--label" for="name">Имя:*</label>
               <input class="form__nutrition--input" type="text" id="name" name="name" value="Барсик">
             </fieldset>
-            <fieldset>
+            <fieldset class="form__nutrition-wrap">
               <label class="form__nutrition--label" for="mass">Вес (кг):*</label>
               <input class="form__nutrition--input" type="text" id="mass" name="mass" value="7">
             </fieldset>
-            <fieldset>
+            <fieldset class="form__nutrition-wrap">
               <label class="form__nutrition--label" for="age">Возраст (лет):</label>
               <input class="form__nutrition--input" type="text" id="age" name="age" value="7">
             </fieldset>
@@ -71,11 +71,45 @@
           <fieldset class="contacts">
             <p class="contacts__title">Контактные данные
               (владельца кота)</p>
-            <label class="contacts__label" for="mail">E-mail:*</label>
-            <input class="contacts__input" type="text" id="mail" name="name" value="kuklachev@gmail.com">
 
-            <label class="contacts__label" for="phone">Телефон:*</label>
-            <input class="contacts__input" type="text" id="phone" name="name" value="8 (960) 900-60-90">
+              <fieldset class="contacts__wrap">
+                <label class="contacts__wrap--label" for="mail">E-mail:*</label>
+                <input class="contacts__wrap--input" type="text" id="mail" name="name" value="kuklachev@gmail.com">
+              </fieldset>
+
+              <fieldset class="contacts__wrap">
+                <label class="contacts__wrap--label" for="phone">Телефон:*</label>
+                <input class="contacts__wrap--input" type="text" id="phone" name="name" value="8 (960) 900-60-90">
+              </fieldset>
+
+            </fieldset>
+          <fieldset class="comment">
+
+            <label class="comment__label" for="msg">Комментарий</label>
+            <textarea class="comment__text" name="user_message" id="msg" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
+
+          </fieldset>
+
+          <fieldset class="application">
+            <p class="application__title">Дополнительно</p>
+
+
+              <input class="application__input" type="radio" id="substitute" name="vitamins" value="1" checked="">
+              <label class="application__label" for="substitute">Сахарозаменитель</label>
+
+              <input class="application__input" type="radio" id="water" name="vitamins" value="2">
+              <label class="application__label" for="water">Питьевая вода</label>
+
+              <input class="application__input" type="radio" id="milk" name="vitamins" value="3">
+              <label class="application__label" for="milk">Молоко</label>
+
+              <input class="application__input" type="radio" id="vitamins" name="vitamins" value="4">
+              <label class="application__label" for="vitamins">Витамины</label>
+
+            <input class="application__btn" type="submit" name="action" value="Отправить заявку">
+            <p class="application__text">* — Обязательные поля</p>
+
+
           </fieldset>
 
 
