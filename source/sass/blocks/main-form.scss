@@ -13,7 +13,9 @@
   padding-left: 25px;
   padding-bottom: 39px;
 }
-
+.form {
+  overflow: hidden;
+}
 .form__nutrition {
   display: flex;
   flex-direction: column;
