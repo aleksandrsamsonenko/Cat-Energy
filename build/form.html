@@ -20,9 +20,9 @@
 
       <nav class="menu">
         <ul class="menu__list">
-          <li class="item "><a class="item__link" href="#">Главная</a></li>
-          <li class="item"><a class="item__link" href="#">Каталог продукции</a></li>
-          <li class="item item-active"><a class="item__link" href="#">Подбор программы</a></li>
+          <li class="item "><a class="item__link" href="index.html">Главная</a></li>
+          <li class="item"><a class="item__link" href="catalog.html">Каталог продукции</a></li>
+          <li class="item item-active"><a class="item__link" href="form.html">Подбор программы</a></li>
         </ul>
       </nav>
     </div>
@@ -43,18 +43,21 @@
 
         <form class="form">
           <fieldset class="form__nutrition">
-            <fieldset class="form__nutrition-wrap">
-              <label class="form__nutrition--label" for="name">Имя:*</label>
-              <input class="form__nutrition--input" type="text" id="name" name="name" value="Барсик">
+            <fieldset>
+              <fieldset class="form__nutrition-wrap">
+                <label class="form__nutrition--label" for="name">Имя:*</label>
+                <input class="form__nutrition--input" type="text" id="name" name="name" value="Барсик">
+              </fieldset>
+              <fieldset class="form__nutrition-wrap">
+                <label class="form__nutrition--label" for="mass">Вес (кг):*</label>
+                <input class="form__nutrition--input" type="text" id="mass" name="mass" value="7">
+              </fieldset>
+              <fieldset class="form__nutrition-wrap">
+                <label class="form__nutrition--label" for="age">Возраст (лет):</label>
+                <input class="form__nutrition--input" type="text" id="age" name="age" value="7">
+              </fieldset>
             </fieldset>
-            <fieldset class="form__nutrition-wrap">
-              <label class="form__nutrition--label" for="mass">Вес (кг):*</label>
-              <input class="form__nutrition--input" type="text" id="mass" name="mass" value="7">
-            </fieldset>
-            <fieldset class="form__nutrition-wrap">
-              <label class="form__nutrition--label" for="age">Возраст (лет):</label>
-              <input class="form__nutrition--input" type="text" id="age" name="age" value="7">
-            </fieldset>
+
 
             <fieldset class="form__slimming">
               <input class="form__slimming--input" type="radio" id="slimming" name="gain" value="1" checked="">
@@ -68,10 +71,12 @@
             </fieldset>
 
           </fieldset>
+
           <fieldset class="contacts">
             <p class="contacts__title">Контактные данные
               (владельца кота)</p>
 
+            <fieldset class="contacts-gen">
               <fieldset class="contacts__wrap">
                 <label class="contacts__wrap--label" for="mail">E-mail:*</label>
                 <input class="contacts__wrap--input" type="text" id="mail" name="name" value="kuklachev@gmail.com">
@@ -81,6 +86,7 @@
                 <label class="contacts__wrap--label" for="phone">Телефон:*</label>
                 <input class="contacts__wrap--input" type="text" id="phone" name="name" value="8 (960) 900-60-90">
               </fieldset>
+            </fieldset>
 
             </fieldset>
           <fieldset class="comment">
@@ -92,22 +98,31 @@
 
           <fieldset class="application">
             <p class="application__title">Дополнительно</p>
+            <fieldset class="application-wrap">
+              <fieldset class="application-wrap__one">
+                <input class="application__input" type="radio" id="substitute" name="vitamins" value="1" checked="">
+                <label class="application__label" for="substitute">Сахарозаменитель</label>
+
+                <input class="application__input" type="radio" id="water" name="vitamins" value="2">
+                <label class="application__label" for="water">Питьевая вода</label>
+              </fieldset>
+
+              <fieldset class="application-wrap__two">
+                <input class="application__input" type="radio" id="milk" name="vitamins" value="3">
+                <label class="application__label" for="milk">Молоко</label>
+
+                <input class="application__input" type="radio" id="vitamins" name="vitamins" value="4">
+                <label class="application__label" for="vitamins">Витамины</label>
+              </fieldset>
+
+              <fieldset class="application-wrap__three">
 
 
-              <input class="application__input" type="radio" id="substitute" name="vitamins" value="1" checked="">
-              <label class="application__label" for="substitute">Сахарозаменитель</label>
+                <input class="application__btn" type="submit" name="action" value="Отправить заявку">
+                <p class="application__text">* — Обязательные поля</p>
+              </fieldset>
 
-              <input class="application__input" type="radio" id="water" name="vitamins" value="2">
-              <label class="application__label" for="water">Питьевая вода</label>
-
-              <input class="application__input" type="radio" id="milk" name="vitamins" value="3">
-              <label class="application__label" for="milk">Молоко</label>
-
-              <input class="application__input" type="radio" id="vitamins" name="vitamins" value="4">
-              <label class="application__label" for="vitamins">Витамины</label>
-
-            <input class="application__btn" type="submit" name="action" value="Отправить заявку">
-            <p class="application__text">* — Обязательные поля</p>
+            </fieldset>
 
 
           </fieldset>
